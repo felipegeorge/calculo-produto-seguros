@@ -1,0 +1,15 @@
+<configuration>
+	<!-- Apêndice de saída para o console -->
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<!-- Definição do layout do log -->
+			<pattern>[%d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX}] | [%-5level] | [%logger{36}] | %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Configuração do nível de logging para o root logger -->
+	<root level="INFO">
+		<appender-ref ref="CONSOLE" />
+	</root>
+
+</configuration>
