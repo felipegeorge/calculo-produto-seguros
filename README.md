@@ -8,7 +8,7 @@ Este micro serviço foi desenvolvido com o objetivo básico de calcular o preço
 - Pré requisitos:
 	- JDK 17.0.10
 	- Maven 3.8.6
-- Após efetuar o git pull ou download do projeto
+- Após efetuar o git clone ou download do projeto
 	- Abrir o terminal para executar o projeto (cmd -> win | shell -> linux) 
 	- Acessar o diretório raiz do projeto: **cd ..\calculo-produto-seguros**
 	- Executar o comando abaixo para inicializar o micro serviço:
