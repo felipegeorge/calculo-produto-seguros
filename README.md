@@ -34,3 +34,4 @@ $ mvn clean install exec:java
   - [CPU](http://127.0.0.1:8081/seguros/actuator/metrics/process.cpu.usage)
   - [Prometheus](http://127.0.0.1:8081/seguros/actuator/prometheus)
 
+teste
